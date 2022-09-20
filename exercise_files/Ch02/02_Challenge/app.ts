@@ -1,8 +1,8 @@
 
 enum Status {
-    Todo,
-    InProgress,
-    Done
+    Todo = 'todo',
+    InProgress = 'in-progress',
+    Done = 'done'
 }
 
 interface Item{
